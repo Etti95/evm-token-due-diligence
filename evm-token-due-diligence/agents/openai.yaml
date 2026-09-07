@@ -1,0 +1,4 @@
+interface:
+  display_name: "EVM Token Due Diligence"
+  short_description: "Evidence-bounded EVM token diligence"
+  default_prompt: "Use $evm-token-due-diligence to assess this exact EVM token and its economic system."

@@ -1,0 +1,37 @@
+# Per-token diligence cases and generated work products.
+# These may contain contract bytecode, RPC captures, wallet mappings, and reports.
+/cases/
+/contracts/
+/reports/
+/investigations/
+/runs/
+/evidence/
+
+# Ignore address-named case directories if a future workflow places them elsewhere.
+**/0x[0-9a-fA-F][0-9a-fA-F]*/
+
+# Secrets and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Python and local tooling output.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# OS and editor files.
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
